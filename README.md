@@ -1,4 +1,4 @@
-##Buscador de información de IP
+<h1>Buscador de información de IP</h1>
 
 Es una aplicación que busca información detallada de una IP y la devuelve en formato JSON
 
