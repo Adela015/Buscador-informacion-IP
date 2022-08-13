@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/3094/3094284.png">
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    <title>Buscador de información de una IP</title>
+</head>
+<body>
+
+<main class="container">
+    <form id="form">
+        <label>
+            IP del Usuario
+            <input id="input" type="text" placeholder="Introduce aquí la IP" required>
+            <small>Por ejemplo: 54.85.132.205</small>
+        </label>
+        <button type="submit" id="submit" style="background-color: rgb(240, 0, 208); border-style: none;">
+            Buscar información de esta IP
+        </button>
+    </form>
+
+    <div>
+        <pre id="results"></pre>
+    </div>
+</main>
+
+<script src="./script.js"></script>
+
+</body>
+</html>
